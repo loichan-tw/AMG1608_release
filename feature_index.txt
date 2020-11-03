@@ -1,0 +1,12 @@
+MFCC: 1:40
+20 Mel-frequency cepstral coefficients and their first-order time differences.
+
+Tonal: [43:59]
+Octave band signal intensity using a triangular octave filter bank and the ratio of these intensity values.
+
+Spectral: [41:42, 60:68]
+Linear predictor coefficients that capture the spectral envelope of the audio signal.
+Spectral flux and spectral shape descriptors.
+
+Temporal: [69:72]
+Shape statistics (centroid, spread, skewness, and kurtosis) of the audio signal.
